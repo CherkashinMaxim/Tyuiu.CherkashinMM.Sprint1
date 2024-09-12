@@ -6,7 +6,7 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task1.V4.Lib
     {
         public double Calculate(double x, double y)
         {
-            return (x + y) / (x * y);
+            return (x + y);
         }
     }
 }
