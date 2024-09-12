@@ -29,7 +29,7 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task1.V4
             x = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Введите значение y:");
-            y  = Convert.ToDouble(Console.ReadLine());
+            y = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");

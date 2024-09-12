@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.CherkashinMM.Sprint1.Task1.V24.Lib\Tyuiu.CherkashinMM.Sprint1.Task1.V24.Lib.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="tyuiu.cources.programming.interfaces">
       <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
