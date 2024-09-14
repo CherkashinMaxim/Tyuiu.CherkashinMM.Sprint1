@@ -1,5 +1,4 @@
-﻿using tyuiu.cources.programming.interfaces;
-using tyuiu.cources.programming.interfaces.Sprint1;
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.CherkashinMM.Sprint1.Task2.V24.Lib
 {
