@@ -35,7 +35,7 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task2.V24
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(x, y));
+            Console.WriteLine("Квадрат разницы = " + ds.Calculate(x, y));
             Console.ReadLine();
         }
     }
