@@ -13,7 +13,7 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task1.V4
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
             Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #0                                                              *");
+            Console.WriteLine("* Вариант #24                                                              *");
             Console.WriteLine("* Выполнил: Черкашин Максим Михайлович | ИИПб-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
