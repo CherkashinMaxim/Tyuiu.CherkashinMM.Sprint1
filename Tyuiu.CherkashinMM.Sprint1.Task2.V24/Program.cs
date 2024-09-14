@@ -25,17 +25,17 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task2.V24
             Console.WriteLine("***************************************************************************");
 
             int x, y;
-            Console.WriteLine("Первое число (целое число):");
+            Console.WriteLine("Введите число X:");
             x = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Второе число (целое число):");
+            Console.WriteLine("Введите число Y:");
             y = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Квадрат разницы = " + ds.Calculate(x, y));
+            Console.WriteLine("Квадрат разницы (X-Y)^2 = " + ds.Calculate(x, y));
             Console.ReadLine();
         }
     }
