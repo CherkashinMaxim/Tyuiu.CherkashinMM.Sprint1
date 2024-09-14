@@ -24,17 +24,18 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task2.V24
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите первое число:");
-            int num1 = Convert.ToInt32(Console.ReadLine());
+            int x, y;
+            Console.WriteLine("Введите значение X:");
+            x = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введите второе число:");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите значение Y:");
+            y = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(num1, num2));
+            Console.WriteLine(ds.Calculate(x, y));
             Console.ReadLine();
         }
     }
