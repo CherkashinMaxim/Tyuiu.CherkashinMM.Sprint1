@@ -25,10 +25,10 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task2.V24
             Console.WriteLine("***************************************************************************");
 
             int x, y;
-            Console.WriteLine("Введите значение X:");
+            Console.WriteLine("Первое число (целое число):");
             x = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введите значение Y:");
+            Console.WriteLine("Второе число (целое число):");
             y = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
