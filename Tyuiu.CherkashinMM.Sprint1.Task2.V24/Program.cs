@@ -11,7 +11,7 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task2.V24
             Console.Title = "Спринт #1 | Выполнил: Черкашин М. М. | ИИПб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #24                                                             *");
             Console.WriteLine("* Выполнил: Черкашин Максим Михайлович | ИИПб-24-1                        *");
