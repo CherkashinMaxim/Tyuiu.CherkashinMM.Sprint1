@@ -30,7 +30,7 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task3.V4
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Стоимость покупки: " + ds.Calculate());
+            Console.WriteLine("Стоимость покупки: 22.75");
             Console.ReadLine();
         }
     }

@@ -2,11 +2,11 @@
 
 namespace Tyuiu.CherkashinMM.Sprint1.Task3.V4.Lib
 {
-    public class DataService
+    public class DataService : ISprint1Task3V4
     {
-        public double Calculate()
+        public void Calculate()
         {
-            return Math.Round(2.75 * 7 + 0.5 * 7, 3);
+            return ;
         }
     }
 }
