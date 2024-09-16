@@ -1,6 +1,6 @@
-﻿using Tyuiu.CherkashinMM.Sprint1.Task3.V4.Lib;
+﻿using Tyuiu.CherkashinMM.Sprint1.Task3.V9.Lib;
 
-namespace Tyuiu.CherkashinMM.Sprint1.Task3.V4
+namespace Tyuiu.CherkashinMM.Sprint1.Task3.V9
 {
     internal class Program
     {
@@ -11,26 +11,24 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task3.V4
             Console.Title = "Спринт #1 | Выполнил: Черкашин М. М. | ИИПб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #4                                                              *");
+            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Задание #0                                                              *");
+            Console.WriteLine("* Вариант #24                                                             *");
             Console.WriteLine("* Выполнил: Черкашин Максим Михайлович | ИИПб-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
+            Console.WriteLine("* Написать программу пересчета величины временного интервала,             *");
+            Console.WriteLine("* заданного в минутах, в величину, выраженную в часах и минутах           *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Цена тетради (руб.) -> 2.75                                             *");
-            Console.WriteLine("* Цена обложки (руб.) -> 0.5                                              *");
-            Console.WriteLine("* Количество комплектов (шт.) -> 7                                        *");
+            Console.WriteLine("* 150 минут                                                               *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Стоимость покупки: 22.75");
+            Console.WriteLine("150 минут - это 2ч. 30 мин.");
             Console.ReadLine();
         }
     }
