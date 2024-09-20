@@ -6,7 +6,7 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task3.V9.Lib
     {
         public void Calculate()
         {
-            return;
+            throw new NotImplementedException();
         }
     }
 }
