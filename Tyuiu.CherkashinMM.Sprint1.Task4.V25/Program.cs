@@ -7,7 +7,6 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task4.V25
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-
             Console.Title = "Спринт #1 | Выполнил: Черкашин М. М. | ИИПб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");

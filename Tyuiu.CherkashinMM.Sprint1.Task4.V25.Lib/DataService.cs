@@ -6,7 +6,7 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task4.V25.Lib
     {
         public double Calculate(double x)
         {
-            x = x * Math.PI / 180;
+            //x = x * Math.PI / 180;
 
             return Math.Round((1-Math.Cos(x))/(Math.Sin(x)*Math.Sin(x)), 3);
         }
