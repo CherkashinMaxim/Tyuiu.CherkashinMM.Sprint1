@@ -11,7 +11,7 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task2.V24.Test
             DataService ds = new DataService();
 
             int num1 = 9; int num2 = 5;
-            Assert.AreEqual(16, ds.CalculateSquareDiff(num1, num2));
+            Assert.AreEqual(16, ds.CalculateDiffSquare(num1, num2));
         }
     }
 }
