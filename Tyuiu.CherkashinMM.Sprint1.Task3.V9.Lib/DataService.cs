@@ -8,5 +8,10 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task3.V9.Lib
         {
             throw new NotImplementedException();
         }
+
+        public void Time()
+        {
+
+        }
     }
 }

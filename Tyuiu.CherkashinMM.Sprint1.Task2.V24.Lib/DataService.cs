@@ -2,11 +2,11 @@
 
 namespace Tyuiu.CherkashinMM.Sprint1.Task2.V24.Lib
 {
-    public class DataService : ISprint1Task1V24
+    public class DataService : ISprint1Task2V24
     {
-        public double Calculate(double x, double y)
+        public int Calculate(double value, int valueTwo)
         {
-            return (x - y) * (x - y);
+            return ((int)value - valueTwo) * ((int)value - valueTwo);
         }
     }
 }
