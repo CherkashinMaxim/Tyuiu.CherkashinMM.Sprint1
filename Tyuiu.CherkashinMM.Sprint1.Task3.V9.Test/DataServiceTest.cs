@@ -8,7 +8,9 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task3.V9.Test
         [TestMethod]
         public void CheckCalculationValid()
         {
+            DataService ds = new DataService();
 
+            Assert.AreEqual(2, ds.ConvertMinutesToHours(150));
         }
     }
 }

@@ -32,10 +32,7 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task3.V9
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            int minutes = Convert.ToInt32(ds.ConvertMinutesToHours(min));
-            int hours = Convert.ToInt32(min/60);
-
-            Console.WriteLine($"{min} минут - это {hours} ч. {minutes} мин.");
+            Console.WriteLine($"{min} минут - это {ds.ConvertMinutesToHours(min)} ч.");
             Console.ReadLine();
         }
     }

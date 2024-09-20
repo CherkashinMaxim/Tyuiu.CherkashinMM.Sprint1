@@ -7,7 +7,7 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task3.V9.Lib
 
         public double ConvertMinutesToHours(int minutes)
         {
-            return minutes % 60;
+            return minutes / 60;
         }
 
     }
