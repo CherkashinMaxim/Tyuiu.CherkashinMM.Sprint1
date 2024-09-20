@@ -23,12 +23,19 @@ namespace Tyuiu.CherkashinMM.Sprint1.Task3.V9
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* 150 минут                                                               *");
+
+            int min;
+            Console.WriteLine("Введите временной интервал (в минутах):");
+            min = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("150 минут - это 2ч. 30 мин.");
+            int minutes = Convert.ToInt32(ds.ConvertMinutesToHours(min));
+            int hours = Convert.ToInt32(min/60);
+
+            Console.WriteLine($"{min} минут - это {hours} ч. {minutes} мин.");
             Console.ReadLine();
         }
     }

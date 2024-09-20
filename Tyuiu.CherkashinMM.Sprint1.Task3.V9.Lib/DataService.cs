@@ -2,16 +2,13 @@
 
 namespace Tyuiu.CherkashinMM.Sprint1.Task3.V9.Lib
 {
-    public class DataService : ISprint1Task3V1
+    public class DataService : ISprint1Task3V9
     {
-        public void Calculate()
+
+        public double ConvertMinutesToHours(int minutes)
         {
-            throw new NotImplementedException();
+            return minutes % 60;
         }
 
-        public void Time()
-        {
-
-        }
     }
 }
